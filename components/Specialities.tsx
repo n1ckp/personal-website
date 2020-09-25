@@ -19,10 +19,12 @@ const SPECIALITIES: string[] = [
   'SEO',
 ];
 
-export default (): JSX.Element => (
+const Specialities = (): JSX.Element => (
   <p className={styles.specialities}>
     {SPECIALITIES.map((speciality, i) => {
       return <span key={i}>{speciality}</span>;
     })}
   </p>
 );
+
+export default Specialities;

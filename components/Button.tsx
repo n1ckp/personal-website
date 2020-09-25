@@ -9,7 +9,7 @@ type ButtonComponentProps = {
   children: React.ReactNode;
 } & ButtonProps;
 
-export default ({
+const Button = ({
   href,
   onClick,
   children,
@@ -34,3 +34,5 @@ export default ({
     </Wrapper>
   );
 };
+
+export default Button;
