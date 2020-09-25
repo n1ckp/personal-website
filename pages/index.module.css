@@ -1,0 +1,11 @@
+.mainHeader {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-right: 48px;
+  letter-spacing: 3px;
+  color: var(--colour-text-dark);
+}
+
+.mainHeader > span {
+  color: var(--colour-claret);
+}

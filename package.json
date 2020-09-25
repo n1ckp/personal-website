@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal Website for Nick Phillips",
+  "repository": "https://github.com/n1ckp/personal-website",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "next dev",
+    "prebuild": "npm run lint",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  }
+}

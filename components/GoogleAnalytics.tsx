@@ -1,0 +1,22 @@
+/* eslint-disable react/no-danger */
+export default function GoogleAnalytics(): JSX.Element {
+  return (
+    <>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-60017713-2"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-60017713-2');
+      `,
+        }}
+      />
+    </>
+  );
+}

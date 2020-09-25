@@ -1,0 +1,10 @@
+.projects > li {
+  margin-bottom: 16px;
+}
+.projects > li > p {
+  margin: 4px 0;
+}
+.codeURL {
+  font-size: 14px;
+  display: block;
+}

@@ -1,0 +1,18 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 2px solid var(--colour-claret);
+  color: var(--colour-text-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0  8px 4px -4px var(--colour-text-light);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.button:hover {
+  text-decoration: none;
+  box-shadow: 0  20px 10px -8px var(--colour-ui-grey);
+  transform: translate(0, -4px);
+}
