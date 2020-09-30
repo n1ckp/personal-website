@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/Layout';
 import Contact from '../components/Contact';
 import Specialities from '../components/Specialities';
 import Projects from '../components/Projects';
+import Learning from '../components/Learning';
 import utilStyles from '../styles/utils.module.css';
 import styles from './index.module.css';
 
@@ -37,6 +38,9 @@ const Home = (): JSX.Element => (
     </section>
     <section>
       <Projects />
+    </section>
+    <section>
+      <Learning />
     </section>
   </Layout>
 );
