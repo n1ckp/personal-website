@@ -2,7 +2,9 @@ export default function Projects(): JSX.Element {
   return (
     <>
       <h2 id="learning">Learning</h2>
-      <p>Here's a few good resources for learning about web development.</p>
+      <p>
+        Here&apos;s a few good resources for learning about web development.
+      </p>
       <h3>The Basics</h3>
       <ul>
         <li>
@@ -23,7 +25,7 @@ export default function Projects(): JSX.Element {
       <ul>
         <li>
           <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md">
-            You Don't Know JS (free ebook series)
+            You Don&apos;t Know JS (free ebook series)
           </a>
         </li>
       </ul>
