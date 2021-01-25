@@ -11,7 +11,7 @@ type Project = {
 const PROJECTS: Project[] = [
   {
     title: 'SpotMyBands',
-    url: 'https://spotmybands.com/',
+    url: 'https://spotmybands.n1ck.dev/',
     codeURL: 'https://github.com/n1ckp/spotmybands',
     description:
       'A website for quickly finding upcoming live music events for the bands you listen to. Uses a combination of Spotify and Songkick APIs to show artists and their events on an interactive Google Map.',
