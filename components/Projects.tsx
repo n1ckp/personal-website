@@ -14,16 +14,8 @@ const PROJECTS: Project[] = [
     url: 'https://spotmybands.n1ck.dev/',
     codeURL: 'https://github.com/n1ckp/spotmybands',
     description:
-      'A website for quickly finding upcoming live music events for the bands you listen to. Uses a combination of Spotify and Songkick APIs to show artists and their events on an interactive Google Map.',
-    tags: [
-      'Heroku',
-      'Django',
-      'Python',
-      'React',
-      'Javascript',
-      'Google Maps',
-      'APIs',
-    ],
+      'A website for quickly finding upcoming live music events for the bands you listen to. Uses a combination of Spotify and Songkick APIs to show artists and their events on an interactive map.',
+    tags: ['Heroku', 'React', 'Javascript', 'APIs'],
   },
   {
     title: 'MyTFL',

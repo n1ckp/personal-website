@@ -7,6 +7,7 @@ const SPECIALITIES: string[] = [
   'Redux',
   'Jest',
   'WebdriverIO',
+  'Express',
   'ES6',
   'Heroku',
   'SASS (SCSS)',
