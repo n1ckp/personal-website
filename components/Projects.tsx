@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'CodeAssistant',
-    url: 'http://www.codeassistant.org/',
+    url: 'https://codeassistant.n1ck.dev/',
     description:
       "An online educational programming environment with interactive debugging tools, designed specifically with secondary schools in mind. Created for my Master's dissertation.",
     tags: [

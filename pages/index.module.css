@@ -9,3 +9,12 @@
 .mainHeader > span {
   color: var(--colour-claret);
 }
+
+@media (prefers-color-scheme: dark) {
+  .mainHeader {
+    color: var(--colour-blue);
+  }
+  .mainHeader > span {
+    color: var(--colour-grey);
+  }
+}

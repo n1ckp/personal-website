@@ -45,9 +45,9 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
           href="https://fonts.googleapis.com/css?family=Rubik:300,400&display=swap"
           rel="stylesheet"
         />
-        <GoogleAnalytics />
       </Head>
       <main>{children}</main>
+      <GoogleAnalytics />
     </div>
   );
 }
