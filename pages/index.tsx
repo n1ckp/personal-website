@@ -19,7 +19,7 @@ const Home = (): JSX.Element => (
       <p>Hi. I&apos;m Nick. Software Engineer.</p>
       <p>I love working on solutions which make people happy.</p>
       <p>
-        I currently work on the UI experience for signup at{' '}
+        I currently work at{' '}
         <a
           href="https://www.imdb.com/tv/"
           target="_blank"
@@ -27,7 +27,7 @@ const Home = (): JSX.Element => (
         >
           IMDb TV
         </a>
-        .
+        , delivering the UI for living room devices
       </p>
     </section>
     <section>
