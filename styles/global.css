@@ -6,6 +6,7 @@
   --colour-gold: #d7aa2b;
   --colour-grey: #f0f0f0;
   --colour-text-dark: #292929;
+  --colour-bg-dark: #141414;
   --colour-text-light: #666666;
   --colour-ui-grey: #d2d2d2;
 }
@@ -27,7 +28,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--colour-blue);
   text-decoration: none;
 }
 
@@ -43,6 +44,6 @@ img {
 @media (prefers-color-scheme: dark) {
   body {
     color: var(--colour-grey);
-    background: var(--colour-text-dark);
+    background: var(--colour-bg-dark);
   }
 }

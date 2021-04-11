@@ -21,11 +21,11 @@ const Home = (): JSX.Element => (
       <p>
         I currently work on the UI experience for signup at{' '}
         <a
-          href="https://www.primevideo.com/"
+          href="https://www.imdb.com/tv/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Prime&nbsp;Video
+          IMDb TV
         </a>
         .
       </p>

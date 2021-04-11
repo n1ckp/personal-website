@@ -60,7 +60,7 @@ export default function Projects(): JSX.Element {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Code link&nbsp;➚
+                Code&nbsp;➚
               </a>
             )}
             <p>{description}</p>
