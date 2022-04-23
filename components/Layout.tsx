@@ -16,7 +16,7 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export default function Layout({ children }: LayoutProps): React.ReactElement {
   return (
     <div className={styles.container}>
       <Head>

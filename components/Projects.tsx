@@ -24,23 +24,23 @@ const PROJECTS: Project[] = [
       'A simple React Native app, showing the status of London Tube lines.',
     tags: ['React Native', 'Javascript', 'Expo'],
   },
-  {
-    title: 'CodeAssistant',
-    url: 'https://codeassistant.n1ck.dev/',
-    description:
-      "An online educational programming environment with interactive debugging tools, designed specifically with secondary schools in mind. Created for my Master's dissertation.",
-    tags: [
-      'Google App Engine',
-      'Flask',
-      'Python',
-      'ASTs',
-      'Education',
-      'Algorithms',
-    ],
-  },
+  // {
+  //   title: 'CodeAssistant',
+  //   url: 'https://codeassistant.n1ck.dev/',
+  //   description:
+  //     "An online educational programming environment with interactive debugging tools, designed specifically with secondary schools in mind. Created for my Master's dissertation.",
+  //   tags: [
+  //     'Google App Engine',
+  //     'Flask',
+  //     'Python',
+  //     'ASTs',
+  //     'Education',
+  //     'Algorithms',
+  //   ],
+  // },
 ];
 
-export default function Projects(): JSX.Element {
+export default function Projects(): React.ReactElement {
   return (
     <>
       <h2>Side Projects</h2>

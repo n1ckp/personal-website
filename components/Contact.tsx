@@ -21,7 +21,7 @@ const CONTACT_OPTIONS = [
   },
 ];
 
-export default function Contact(): JSX.Element {
+export default function Contact(): React.ReactElement {
   return (
     <div className={styles.contact}>
       {CONTACT_OPTIONS.map(({ title, href }, i) => {

@@ -1,16 +1,14 @@
-export default function Projects(): JSX.Element {
+export default function Projects(): React.ReactElement {
   return (
     <>
       <h2 id="learning">Learning</h2>
       <p>
         Here&apos;s a few good resources for learning about web development.
       </p>
-      <h3>The Basics</h3>
+      <h3>Courses</h3>
       <ul>
         <li>
-          <a href="https://www.codecademy.com/learn/paths/web-development">
-            Codecademy
-          </a>
+          <a href="https://www.codecademy.com/">Codecademy</a>
         </li>
         <li>
           <a href="https://www.udemy.com/">Udemy</a>
@@ -20,23 +18,28 @@ export default function Projects(): JSX.Element {
             Treehouse
           </a>
         </li>
+        <li>
+          <a href="https://www.theodinproject.com/">The Odin Project</a>
+        </li>
       </ul>
-      <h3>JavaScript</h3>
+      <h3>Other useful sites</h3>
       <ul>
         <li>
-          <a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md">
+          CSS Flexbox -{' '}
+          <a href="https://flexboxfroggy.com/?learn">flexboxfroggy.com</a>, also{' '}
+          <a href="http://www.flexboxdefense.com/">flexboxdefense.com</a>
+        </li>
+        <li>
+          CSS Grid - <a href="https://cssgridgarden.com/">cssgridgarden.com</a>
+        </li>
+        <li>
+          Interview prep -{' '}
+          <a href="https://www.hackerrank.com/">hackerrank.com</a>
+        </li>
+        <li>
+          <a href="https://github.com/getify/You-Dont-Know-JS">
             You Don&apos;t Know JS (free ebook series)
           </a>
-        </li>
-      </ul>
-      <h3>CSS</h3>
-      <ul>
-        <li>
-          Flexbox -{' '}
-          <a href="https://flexboxfroggy.com/?learn">flexboxfroggy.com</a>
-        </li>
-        <li>
-          Grid - <a href="https://cssgridgarden.com/">cssgridgarden.com</a>
         </li>
       </ul>
     </>

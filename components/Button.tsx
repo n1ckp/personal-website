@@ -13,7 +13,7 @@ const Button = ({
   href,
   onClick,
   children,
-}: ButtonComponentProps): JSX.Element => {
+}: ButtonComponentProps): React.ReactElement => {
   const Wrapper = href
     ? ('a' as keyof JSX.IntrinsicElements)
     : ('button' as keyof JSX.IntrinsicElements);

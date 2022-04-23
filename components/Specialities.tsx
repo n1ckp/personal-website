@@ -20,7 +20,7 @@ const SPECIALITIES: string[] = [
   'SEO',
 ];
 
-const Specialities = (): JSX.Element => (
+const Specialities = (): React.ReactElement => (
   <p className={styles.specialities}>
     {SPECIALITIES.map((speciality, i) => {
       return <span key={i}>{speciality}</span>;

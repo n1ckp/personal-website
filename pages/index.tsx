@@ -7,7 +7,7 @@ import Learning from '../components/Learning';
 import utilStyles from '../styles/utils.module.css';
 import styles from './index.module.css';
 
-const Home = (): JSX.Element => (
+const Home = (): React.ReactElement => (
   <Layout>
     <Head>
       <title>{siteTitle}</title>
@@ -21,13 +21,13 @@ const Home = (): JSX.Element => (
       <p>
         I currently work at{' '}
         <a
-          href="https://www.imdb.com/tv/"
+          href="https://www.imdbtv.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          IMDb TV
+          Amazon Freevee
         </a>
-        , delivering the UI for living room devices
+        , creating the user interface for the living room device app.
       </p>
     </section>
     <section>

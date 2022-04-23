@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-const GoogleAnalytics = (): JSX.Element => (
+const GoogleAnalytics = (): React.ReactElement => (
   <>
     <script
       async
