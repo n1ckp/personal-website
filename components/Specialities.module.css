@@ -9,4 +9,9 @@
     background-color: var(--colour-claret);
     color: white;
     border-radius: 4px;
+    transition: scale 300ms;
+}
+
+.specialities > span:hover {
+    scale: 1.1;
 }
