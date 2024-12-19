@@ -1,20 +1,20 @@
 .mainHeader {
-  font-size: 24px;
-  font-weight: bolder;
-  margin-right: 48px;
-  letter-spacing: 3px;
-  color: var(--colour-text-dark);
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 48px;
+    letter-spacing: 3px;
+    color: var(--colour-text-dark);
 }
 
 .mainHeader > span {
-  color: var(--colour-claret);
+    color: var(--colour-claret);
 }
 
 @media (prefers-color-scheme: dark) {
-  .mainHeader {
-    color: var(--colour-blue);
-  }
-  .mainHeader > span {
-    color: var(--colour-grey);
-  }
+    .mainHeader {
+        color: var(--colour-blue);
+    }
+    .mainHeader > span {
+        color: var(--colour-grey);
+    }
 }

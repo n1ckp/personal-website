@@ -1,17 +1,17 @@
 .projects {
-  padding-left: 0;
+    padding-left: 0;
 }
 .projects > li {
-  margin-bottom: 16px;
-  list-style: none;
-  padding: 16px;
-  border: solid 2px var(--colour-blue);
-  border-radius: 4px;
+    margin-bottom: 16px;
+    list-style: none;
+    padding: 16px;
+    border: solid 2px var(--colour-blue);
+    border-radius: 4px;
 }
 .projects > li > p {
-  margin: 4px 0;
+    margin: 4px 0;
 }
 .codeURL {
-  font-size: 14px;
-  display: block;
+    font-size: 14px;
+    display: block;
 }
