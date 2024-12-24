@@ -1,6 +1,8 @@
 ## Nick's Personal Website
 
-Created using [Next.js](https://nextjs.org/). Deployed using [AWS](https://aws.amazon.com/).
+[n1ck.dev](https://n1ck.dev)
+
+Created using [Next.js](https://nextjs.org/)
 
 ### Local development
 
@@ -11,9 +13,4 @@ npm run dev # dev server on port 3000
 
 ### Deployment
 
-Deployed using AWS via GitHub webhook
-
--   CI/CD => AWS CodePipeline
--   Source => GitHub
--   Build => AWS CodeBuild
--   Deploy => S3 Bucket
+Deployed using [Vercel](https://vercel.com/).
