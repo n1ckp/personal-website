@@ -16,18 +16,18 @@ const Home = (): React.ReactElement => (
             NICK<span>PHILLIPS</span>
         </h1>
         <section className={utilStyles.headingMd}>
-            <p>Hi. I&apos;m Nick. Software Engineer.</p>
+            <p>Hi. I&#39;m Nick. Software Engineer.</p>
             <p>I love working on solutions which make people happy.</p>
             <p>
                 I currently work at{' '}
                 <a
-                    href="https://www.imdbtv.com"
+                    href="https://www.primevideo.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Amazon Freevee
+                    Prime Video
                 </a>
-                , creating the user interface for the living room device app.
+                , creating the Web UI for the signup funnel.
             </p>
         </section>
         <section>

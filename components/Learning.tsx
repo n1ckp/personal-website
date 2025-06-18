@@ -3,7 +3,7 @@ export default function Projects(): React.ReactElement {
         <>
             <h2 id="learning">Learning</h2>
             <p>
-                Here&apos;s a few good resources for learning about web
+                Here&apos;s a few helpful resources for learning about web
                 development.
             </p>
             <h3>Courses</h3>
@@ -23,6 +23,9 @@ export default function Projects(): React.ReactElement {
                     <a href="https://www.theodinproject.com/">
                         The Odin Project
                     </a>
+                </li>
+                <li>
+                    Or... you can always try asking your favourite Gen AI tool such as ChatGPT for a learning plan!
                 </li>
             </ul>
             <h3>Other useful sites</h3>
