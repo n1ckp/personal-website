@@ -5,8 +5,8 @@
     margin-bottom: 16px;
     list-style: none;
     padding: 16px;
-    border: solid 2px var(--colour-blue);
-    border-radius: 4px;
+    background-color: var(--colour-ui-card-bg);
+    box-shadow: -4px 4px 0 var(--colour-ui-card-shadow);
 }
 .projects > li > p {
     margin: 4px 0;

@@ -10,12 +10,18 @@ type Project = {
 
 const PROJECTS: Project[] = [
     {
-        title: 'SpotMyBands',
-        url: 'https://spotmybands.n1ck.dev/',
-        codeURL: 'https://github.com/n1ckp/spotmybands',
+        title: 'Personal Website',
+        url: 'https://n1ck.dev',
+        codeURL: 'https://github.com/n1ckp/personal-website',
+        description: 'This website!',
+        tags: ['Next.js', 'React', 'Typescript', 'HTML', 'CSS']
+    },
+    {
+        title: 'Web Games - Sequence Copy',
+        url: 'https://games.n1ck.dev/sequence-copy',
         description:
-            'A website for quickly finding upcoming live music events for the bands you listen to. Uses a combination of Spotify and Songkick APIs to show artists and their events on an interactive map.',
-        tags: ['Heroku', 'React', 'Javascript', 'APIs'],
+            'Simple web-based game where you must click squares in a grid in sequence.',
+        tags: [ 'React', 'Typescript', 'HTML', 'CSS'],
     },
     {
         title: 'MyTFL',
@@ -24,26 +30,13 @@ const PROJECTS: Project[] = [
             'A simple React Native app, showing the status of London Tube lines.',
         tags: ['React Native', 'Javascript', 'Expo'],
     },
-    // {
-    //   title: 'CodeAssistant',
-    //   url: 'https://codeassistant.n1ck.dev/',
-    //   description:
-    //     "An online educational programming environment with interactive debugging tools, designed specifically with secondary schools in mind. Created for my Master's dissertation.",
-    //   tags: [
-    //     'Google App Engine',
-    //     'Flask',
-    //     'Python',
-    //     'ASTs',
-    //     'Education',
-    //     'Algorithms',
-    //   ],
-    // },
 ];
 
 export default function Projects(): React.ReactElement {
     return (
         <>
             <h2>Side Projects</h2>
+            <p>Stuff I work on in my limited spare time.</p>
             <ul className={styles.projects}>
                 {PROJECTS.map(
                     ({ title, description, url, codeURL }: Project, i) => (

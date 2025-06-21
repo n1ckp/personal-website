@@ -1,4 +1,4 @@
-export default function Projects(): React.ReactElement {
+export default function Learning(): React.ReactElement {
     return (
         <>
             <h2 id="learning">Learning</h2>
@@ -6,13 +6,20 @@ export default function Projects(): React.ReactElement {
                 Here&apos;s a few helpful resources for learning about web
                 development.
             </p>
-            <h3>Courses</h3>
             <ul>
+                <li>
+                    <a href="https://www.theodinproject.com/">
+                        The Odin Project
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+                </li>
                 <li>
                     <a href="https://www.codecademy.com/">Codecademy</a>
                 </li>
                 <li>
-                    <a href="https://www.udemy.com/">Udemy</a>
+                    <a href="https://www.udemy.com/">Udemy</a> (when the sale in on for courses. Check reviews first)
                 </li>
                 <li>
                     <a href="https://teamtreehouse.com/tracks/front-end-web-development">
@@ -20,12 +27,10 @@ export default function Projects(): React.ReactElement {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.theodinproject.com/">
-                        The Odin Project
-                    </a>
+                    <a href="https://learn.unity.com/">Unity</a> (Games development)
                 </li>
                 <li>
-                    Or... you can always try asking your favourite Gen AI tool such as ChatGPT for a learning plan!
+                    Or... you can always try asking your favourite Gen AI tool for a learning plan!
                 </li>
             </ul>
             <h3>Other useful sites</h3>

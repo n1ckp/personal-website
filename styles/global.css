@@ -9,6 +9,8 @@
     --colour-bg-dark: #141414;
     --colour-text-light: #666666;
     --colour-ui-grey: #d2d2d2;
+    --colour-ui-card-bg: #313131;
+    --colour-ui-card-shadow: #222222;
 }
 
 html,
