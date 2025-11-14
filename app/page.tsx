@@ -4,7 +4,7 @@ import Specialities from '../components/Specialities';
 import Projects from '../components/Projects';
 import Learning from '../components/Learning';
 import utilStyles from '../styles/utils.module.css';
-import styles from '../pages/index.module.css';
+import styles from './page.module.css';
 
 const Home = (): React.ReactElement => (
   <Layout>
