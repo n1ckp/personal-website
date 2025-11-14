@@ -2,6 +2,7 @@ import '../styles/global.css';
 import GoogleAnalytics from '../components/GoogleAnalytics';
 
 export const metadata = {
+  metadataBase: new URL('https://n1ck.dev'),
   title: 'Nick Phillips | Software Engineer',
   description: 'Software Engineer specialising in Full-Stack Web Development.',
   openGraph: {
