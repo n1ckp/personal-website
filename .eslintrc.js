@@ -1,10 +1,3 @@
-module.exports = {
-    extends: ['eslint-config-next'],
-    rules: {
-        'react/react-in-jsx-scope': 0,
-        'react/require-default-props': 0,
-        'react/no-array-index-key': 0,
-        'react/no-unused-prop-types': 0,
-        'react/jsx-props-no-spreading': 0,
-    },
-};
+// Legacy ESLint config - now using eslint.config.mjs (flat config format)
+// This file is kept for backward compatibility but is ignored by the new config
+module.exports = {};

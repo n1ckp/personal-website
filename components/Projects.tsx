@@ -14,14 +14,14 @@ const PROJECTS: Project[] = [
         url: 'https://n1ck.dev',
         codeURL: 'https://github.com/n1ckp/personal-website',
         description: 'This website!',
-        tags: ['Next.js', 'React', 'Typescript', 'HTML', 'CSS']
+        tags: ['Next.js', 'React', 'Typescript', 'HTML', 'CSS'],
     },
     {
         title: 'Web Games - Sequence Copy',
         url: 'https://games.n1ck.dev/sequence-copy',
         description:
             'Simple web-based game where you must click squares in a grid in sequence.',
-        tags: [ 'React', 'Typescript', 'HTML', 'CSS'],
+        tags: ['React', 'Typescript', 'HTML', 'CSS'],
     },
     {
         title: 'MyTFL',

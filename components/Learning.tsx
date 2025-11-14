@@ -19,7 +19,8 @@ export default function Learning(): React.ReactElement {
                     <a href="https://www.codecademy.com/">Codecademy</a>
                 </li>
                 <li>
-                    <a href="https://www.udemy.com/">Udemy</a> (when the sale in on for courses. Check reviews first)
+                    <a href="https://www.udemy.com/">Udemy</a> (when the sale in
+                    on for courses. Check reviews first)
                 </li>
                 <li>
                     <a href="https://teamtreehouse.com/tracks/front-end-web-development">
@@ -27,10 +28,12 @@ export default function Learning(): React.ReactElement {
                     </a>
                 </li>
                 <li>
-                    <a href="https://learn.unity.com/">Unity</a> (Games development)
+                    <a href="https://learn.unity.com/">Unity</a> (Games
+                    development)
                 </li>
                 <li>
-                    Or... you can always try asking your favourite Gen AI tool for a learning plan!
+                    Or... you can always try asking your favourite Gen AI tool
+                    for a learning plan!
                 </li>
             </ul>
             <h3>Other useful sites</h3>
