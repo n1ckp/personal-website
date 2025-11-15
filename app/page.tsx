@@ -19,7 +19,7 @@ const Home = (): React.ReactElement => (
         <a href="https://www.primevideo.com/" target="_blank" rel="noopener noreferrer">
           Prime Video
         </a>
-        , creating the Web UI for the signup funnel.
+        , creating the Web UI for Prime and Channels signup.
       </p>
     </section>
     <section>

@@ -18,9 +18,7 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps): React.ReactElement {
     return (
         <div className={styles.container}>
-            {/* Head/meta handled by App Router metadata (app/head.tsx + app/layout.tsx) */}
             <main>{children}</main>
-            {/* GoogleAnalytics is injected at the app layout level */}
         </div>
     );
 }
