@@ -1,16 +1,28 @@
 .projects {
     padding-left: 0;
 }
+
 .projects > li {
     margin-bottom: 16px;
     list-style: none;
     padding: 16px;
     background-color: var(--colour-ui-card-bg);
     box-shadow: -4px 4px 0 var(--colour-ui-card-shadow);
+    transition: transform var(--motion-duration) var(--motion-easing),
+        box-shadow var(--motion-duration) var(--motion-easing);
+    will-change: transform;
 }
+
+.projects > li:hover,
+.projects > li:focus-within {
+    transform: translateY(-6px);
+    box-shadow: -6px 18px 24px rgba(0, 0, 0, 0.22);
+}
+
 .projects > li > p {
     margin: 4px 0;
 }
+
 .codeURL {
     font-size: 14px;
     display: block;

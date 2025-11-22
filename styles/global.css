@@ -11,6 +11,11 @@
     --colour-ui-grey: #d2d2d2;
     --colour-ui-card-bg: #313131;
     --colour-ui-card-shadow: #222222;
+
+    /* Motion and accessibility */
+    --motion-duration: 180ms;
+    --motion-easing: cubic-bezier(0.2, 0.9, 0.2, 1);
+    --focus-ring-color: color-mix(in srgb, var(--colour-blue) 40%, white);
 }
 
 html,
@@ -34,8 +39,26 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* subtle link interaction */
+a:hover,
+a:focus-visible {
     text-decoration: underline;
+    transform: translateY(-2px);
+}
+
+/* utility card style used across lists and project items */
+.card {
+    background-color: var(--colour-ui-card-bg);
+    box-shadow: -4px 6px 0 var(--colour-ui-card-shadow);
+    transition: transform var(--motion-duration) var(--motion-easing),
+        box-shadow var(--motion-duration) var(--motion-easing);
+    will-change: transform;
+}
+
+.card:hover,
+.card:focus-within {
+    transform: translateY(-6px);
+    box-shadow: -6px 18px 24px rgba(0, 0, 0, 0.28);
 }
 
 img {
@@ -47,5 +70,27 @@ img {
     body {
         color: var(--colour-grey);
         background: var(--colour-bg-dark);
+    }
+}
+
+/* Accessible focus outline for interactive elements */
+:where(button, a, input, textarea, [role='button']) :focus {
+    outline: none;
+}
+
+:where(button, a, input, textarea, [role='button']) :focus-visible {
+    outline: 3px solid var(--focus-ring-color);
+    outline-offset: 3px;
+}
+
+/* Respect user's reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --motion-duration: 0ms;
+    }
+
+    .card,
+    .button {
+        transition: none !important;
     }
 }

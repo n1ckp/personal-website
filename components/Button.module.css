@@ -6,22 +6,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 8px 4px -4px var(--colour-text-light);
+    box-shadow: 0 8px 6px -6px var(--colour-text-light);
     cursor: pointer;
-    transition: all ease-in-out 0.2s;
+    transition: transform var(--motion-duration) var(--motion-easing),
+        box-shadow var(--motion-duration) var(--motion-easing),
+        background-color var(--motion-duration) var(--motion-easing);
     background-color: var(--colour-grey);
 }
 
 .button:hover {
     text-decoration: none;
-    box-shadow: 0 20px 10px -8px var(--colour-ui-grey);
-    transform: translate(0, -4px);
+    box-shadow: 0 18px 24px -12px var(--colour-ui-grey);
+    transform: translateY(-3px);
+}
+
+.button:active {
+    transform: translateY(-1px) scale(0.995);
+}
+
+.button:focus-visible {
+    outline: 3px solid var(--focus-ring-color);
+    outline-offset: 4px;
 }
 
 @media (prefers-color-scheme: dark) {
     .button {
         box-shadow: 0 8px 4px -4px black;
     }
+
     .button:hover {
         box-shadow: 0 20px 10px -8px black;
     }
